@@ -31,7 +31,7 @@ The `redirect` method expects one of:
 redirect(controller: 'home', action: 'index')
 ----
 
-*  A URI for a resource relative the application context path:
+*  A URI for a resource relative to the application context path:
 
 [source,groovy]
 ----
