@@ -119,7 +119,7 @@ Note that when binding to a `Set` the structure of the `Map` being bound to the 
  * They do not correspond to the order of elements in albums because albums
  * is a Set.
  */
-def bindingMap = ['albums[0]': [id: 9, title: 'The Lamb Lies Down On Broadway']
+def bindingMap = ['albums[0]': [id: 9, title: 'The Lamb Lies Down On Broadway'],
                   'albums[1]': [id: 4, title: 'Selling England By The Pound']]
 
 def band = Band.get(someBandId)
